@@ -35,7 +35,7 @@ Os dados extraídos foram processados e tratados utilizando **Python** no ambien
 - Visualização de dados utilizando **Tableau**.  
 - Análise da distribuição de vagas por categoria, senioridade e tipo de trabalho (remoto, híbrido ou presencial).  
 
-### 5. 📈 Interpretação e Insights  
+### 5. 📈 Visualização e Insights  
 - Identificação de áreas com maior e menor demanda.  
 - Comparação entre número de vagas abertas e quantidade de candidatos aplicando para cada tipo de cargo.  
 - Mapeamento das principais ferramentas exigidas para cada posição.  
@@ -68,6 +68,19 @@ Os dados extraídos foram processados e tratados utilizando **Python** no ambien
 O arquivo de vagas disponibilizado neste repositório não contém toda a base original analisada devido à limitação de tamanho de arquivo permitido no github.
 
 ---
+## 📊 Visualizações no Tableau
+
+![tools](images/tools.jpg)  
+*Figura 1: Exemplo de principais ferramentas demandadas para profissionais de ciência de dados considerando todos os níveis de senioridade.*  
+
+![OfertaXDemanda](images/location.jpg)  
+*Figura 1: Análise dos Estados com maior demanda de profissionais de tecnologia e empresas com maiores números de vagas no período.*  
+
+![OfertaXDemanda](images/jobs.jpg)  
+*Figura 1: Exemplo de análise de distribuição de vagas e candidaturas por senioridade na categoria "Desenvolvimento".*  
+
+![OfertaXDemanda](images/positions.jpg)  
+*Figura 1: Exemplo de análise de oferta vs. demanda por categoria de profissões de tecnologia no Brasil.* 
 
 Contribuições e sugestões são bem-vindas! 😊
 
