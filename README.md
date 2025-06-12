@@ -81,4 +81,4 @@ O arquivo de vagas disponibilizado neste repositório não contém toda a base o
 
 
 
-Contribuições e sugestões são bem-vindas! 😊
+Contribuições e sugestões são sempre bem-vindas! 😊
