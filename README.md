@@ -45,7 +45,7 @@ Os dados extraídos foram processados e tratados utilizando **Python** no ambien
 ## Tecnologias Utilizadas  
 - **Web Scraping:** Octoparse  
 - **Manipulação de Dados:** Python (Jupyter Notebook, Pandas, NumPy)  
-- **Visualização de Dados:** Tableau e Plotly
+- **Visualização de Dados:** Looker e Plotly
 
 ---
 
@@ -68,13 +68,18 @@ Os dados extraídos foram processados e tratados utilizando **Python** no ambien
 O arquivo de vagas disponibilizado neste repositório não contém toda a base original analisada devido à limitação de tamanho de arquivo permitido no github. Caso queira explorar a base completa, favor entrar em contato.
 
 ---
-## Visualizações no Tableau
+## Visualizações no Looker
 
-![tools](images/tools.jpg)  
-*Figura 1: Exemplo de principais ferramentas demandadas para profissionais de ciência de dados considerando todos os níveis de senioridade.*  
+Entre em contato para acessar o dashboard completo.
 
-![OfertaXDemanda](images/location.jpg)  
-*Figura 2: Análise dos Estados com maior demanda de profissionais de tecnologia e empresas com maiores números de vagas no período.*  
+![tools](images/categorias.jpg)  
+*Figura 1: Distribuição de vagas por categorias e subcategorias.*  
+
+![OfertaXDemanda](images/Infos.jpg)  
+*Figura 2: Análises relacionadas a modelo de trabalho, número de candidaturas, senioridade, empresas e localização.*  
+
+![tools](images/skills.jpg)  
+*Figura 1: Exemplo de principais ferramentas demandadas para profissionais de tecnologia.*   
 
 ## Visualizações no Jupyter
 Ao rodar o notebook com o csv origingal (entre em contato para acesso), é possível visualizar:
@@ -109,47 +114,44 @@ Ao rodar o notebook com o csv origingal (entre em contato para acesso), é poss�
   - NÃO INFORMADO
 
 - **Análise de vagas e candidaturas por categorias:**
-  - A categoria com maior número de vagas disponíveis foi DESENVOLVIMENTO, representando 47% do total de 6389 vagas analisadas. 
-  - As categorias DESENVOLVIMENTO (3023), ANÁLISE DE SISTEMAS (1549), DADOS/BI (734), DESIGN/UX/UI (620), juntas representam 92% do total de vagas.
-  - A categoria QUALIDADE/TESTES e SEGURANÇA DA INFORMAÇÃO apresentaram o menor número de vagas, sendo 61 e 77, respectivamnte.
-  - As três categorias com menor número de candidaturas por vaga são: CLOUD/DEVOPS/INFRA (26), DADOS/BI (32) e DESENVOLVIMENTO (32). As três categorias com maior número de candidaturas por vaga são ANÁLISE DE NEGÓCIOS (45), LIDERANÇA (46) e SEGURANÇA DA INFORMAÇÃO. Estas informações se contrapõem a relatórios de tendências que indicam lacunas de profissionais para cargos relacionados a segurança da informação e aumento do número de profissionais para cargos de desenvolvimento. Uma possível explicação para isso pode ser o gap do número de vagas de desenvolvimento vs segunraça da informação. 
+  - A categoria com maior número de vagas disponíveis foi DESENVOLVIMENTO, representando mais de 45% do total de 6379 vagas analisadas. 
+  - As categorias DESENVOLVIMENTO, ANÁLISE DE SISTEMAS, DADOS/BI, DESIGN/UX/UI, juntas representam aproximadamente 90% do total de vagas.
+  - A categoria QUALIDADE/TESTES e SEGURANÇA DA INFORMAÇÃO apresentaram o menor número de vagas, representando em torno de 1% cada.
+  - As três categorias com menor número de candidaturas por vaga são: CLOUD/DEVOPS/INFRA, DADOS/BI e ANÁLISE DE SISTEMAS. As três categorias com maior número de candidaturas por vaga são SEGURANÇA DA INFORMAÇÃO, DESENVOLVIMENTO e QUALIDADE/TESTES. Estas informações se contrapõem a relatórios de tendências que indicam lacunas de profissionais para cargos relacionados a segurança da informação e aumento do número de profissionais para cargos de desenvolvimento. Uma possível explicação para isso pode ser o gap do número de vagas de desenvolvimento vs segurança da informação. 
   - Dentre todas as categorias, o número de candidaturas por vaga no nível JÚNIOR se destaca, com exceção das categorias LIDERANÇA, ANÁLISE DE SISTEMAS, DADOS/BI e CLOUD/DEVOPS/INFRA.
   - 
 - **Análise de vagas e candidaturas por senioridade:**
-  - Dentre os níveis de senioridade, 49% se referem ao nível ASSISTENTE, o que pode indicar falta de clareza sobre o nível de senioridade demandado nas vagas. 
-  - 38% se referem ao nível PLENO-SÊNIOR. 
-  - Apenas 2% são para o nível JÚNIOR. 
+  - Dentre os níveis de senioridade, aproximadamente 50% se referem ao nível ASSISTENTE, o que pode indicar falta de clareza sobre o nível de senioridade demandado nas vagas. 
+  - 37% se referem ao nível PLENO-SÊNIOR. 
+  - Apenas 3% são para o nível JÚNIOR. 
   - 6% das vagas não informaram nível de senioridade.
-  - Apesar de representar apenas 2% das vagas, o nível JÚNIOR é o que apresenta a maior taxa de candidaturas por vaga (57). O nível ESTÁGIO apresenta 44 candidaturas por vaga, o PLENO-SÊNIOR apresenta 40 e o ASSISTENTE apresenta 29. Isso indica uma alta procura por vagas por profissionais em início de carreira.
-  - 
+  - Apesar de representar apenas 3% das vagas, o nível JÚNIOR é o que apresenta a maior taxa de candidaturas por vaga. Isso indica uma alta procura por profissionais em início de carreira.
+  
 - **Análise de vagas e candidaturas por modelo de trabalho:**
-  - Dentre os modelos de trabalho, a maioria (60%) não foi informado, o que indica que a maioria das vagas não especifica o modelo de trabalho ou a categorização não capturou adequadamente os modelos remoto/híbrido/presencial.
-  - 28% é REMOTO, 9% é HÍBRIDO e 8% é PRESENCIAL.
-  - Dentre os modelos de trabalho, o PRESENCIAL apresentou a menor taxa de candidaturas por vaga (27), enquanto o HÍBRIDO e o REMOTO apresentaram 39 e 38 respectivamente. Isso é esperado, já que os modelos híbrido e remoto oferecem uma maior flexibilidade e alcance geográfico, além de favorecerem pessoas com deficiência e pessoas que conciliam trabalhos de cuidado familiar, em especial, mulheres.
-  - 
+  - Dentre os modelos de trabalho, a maioria não foi informado, o que indica que a maioria das vagas não especifica o modelo de trabalho ou a categorização não capturou adequadamente os modelos remoto/híbrido/presencial.
+  - Quase 28% é REMOTO, 9% é HÍBRIDO e 7% é PRESENCIAL.
+  - Dentre os modelos de trabalho, o PRESENCIAL apresentou a menor taxa de candidaturas por vaga. Isso é esperado, já que os modelos híbrido e remoto oferecem uma maior flexibilidade e alcance geográfico, além de favorecerem pessoas com deficiência e pessoas que conciliam trabalhos de cuidado familiar, em especial, mulheres.
+  
 - **Análise de vagas e candidaturas por categorias e senioridade:**
-  - Dentre todas as categorias, os níveis PLENO-SÊNIOR e ASSISTENTE se destacam. Para a categoria de DESENVOLVIMENTO, a quantidade de vagas para ASSISTENTE corresponde a quase o dobro das vagas para PLENO-SÊNIOR. Já nas categorias ANÁLISE DE SISTEMAS e DADOS/BI, os níveis PLENO-SÊNIOR se destacam.
+  - Dentre todas as categorias, os níveis PLENO-SÊNIOR e ASSISTENTE se destacam.
   - Dentre todos os níveis de senioridade, as categorias DESENVOLVIMENTO e ANÁLISE DE SISTEMAS se destacam.
-  - Dentre as vagas para o nível JÚNIOR, esta distribuição dentre as categorias é mais uniforme do que nos níveis ASSISTENTE e PLENO-SÊNIOR.
 
 - **Habilidades:**:
-  - Considerando todas as categorias e níveis, as habilidades mais demandadas foram, em ordem: CLOUD, SQL, FRONT, BACK, UI, UX, PYTHON, AUTOMAÇÃO, INGLÊS e CONTINUOUS INTEGRATION (CI).
+  - Considerando todas as categorias e níveis, as habilidades mais demandadas foram, em ordem: SQL, INGLÊS, PYTHON, CLOUD, JAVASCRIPT, AWS, R, JAVA, GIT, REACT.
   - As 5 habilidades mais demandadas de cada categoria são:
-  - DESENVOLVIMENTO: FRONT, BACK, CLOUD, REACT, SQL
-  - ANÁLISE DE SISTEMAS: CLOUD, SQL, AUTOMAÇÃO, MACHINE LEARNING, PYTHON
-  - DADOS/BI: CLOUD, SQL, MACHINE LEARNING, PYTHON, ETL
-  - DESIGN/UX/UI: AGILE, UX, UI, PHOTSHOP, FIGMA
-  - CLOUD/DEVOPS/INFRA: CLOUD, AUTOMAÇÃO, LINUX, AWS, CI
-  - ANÁLISE DE NEGÓCIOS: CLOUD, SQL, INGLÊS, CRM, INTELIGÊNCIA ARTIFICIAL
-  - LIDERANÇA: CLOUD, AGILE, INGLÊS, UX, SCRUM
-  - QUALIDADE/TESTES: AUTOMAÇÃO, TESTE, QA, API, AGILE
-  - SEGURANÇA DA INFORMAÇÃO: CLOUD, LINUX, AWS, SEGURANÇA DA INFORMAÇÃO, CI
+  - DESENVOLVIMENTO: JAVASCRIPT, SQL, INGLÊS, JAVA, REACT
+  - ANÁLISE DE SISTEMAS: INGLÊS, CLOUD, SQL, PYTHON, R
+  - DADOS/BI: SQL, PYTHON, INGLÊS, CLOUD, POWER BI
+  - DESIGN/UX/UI: PHOTOSHOP, FIGMA, INGLÊS, HTML, CSS
+  - CLOUD/DEVOPS/INFRA: CLOUD, AWS, LINUX, INGLÊS, AZURE
+  - ANÁLISE DE NEGÓCIOS: INGLÊS, EXCEL, CLOUD, SQL, R
+  - LIDERANÇA: INGLÊS, CLOUD, UX, GO, AGILE, IA
+  - QUALIDADE/TESTES: TESTE, AUTOMAÇÃO, INGL~ES, API, QA
+  - SEGURANÇA DA INFORMAÇÃO: INGLÊS, CLOUD, PYTHON, LINUX, NIST
 
 - **Distribuição Geográfica:**
-  - Mair de 47% das vagas são para o Estado de São Paulo. 
+  - MaiS de 47% das vagas são para o Estado de São Paulo. 
   - No geral, a região sudeste apresenta a maior quantidade de vagas.
-  - Porém, a maior taxa de candidaturas por vaga é no Estado da Paraíba, porém, apenas 11 vagas foram divulgadas neste Estado. 
   - Os Estados da região Norte e Centro-Oeste apresentam a menor taxa de candidaturas por vaga. 
-
 
 Contribuições e sugestões são sempre bem-vindas! 😊
